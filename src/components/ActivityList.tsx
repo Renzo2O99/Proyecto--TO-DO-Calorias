@@ -3,7 +3,6 @@ import { categories } from "../data/category"
 import { useMemo } from "react"
 import { PencilSquareIcon, XCircleIcon } from '@heroicons/react/24/outline'
 import { ActivityActions } from "../reducers/activityReducer"
-import { div } from "framer-motion/client"
 
 interface ActivityListProps {
   activities: Activity[],
